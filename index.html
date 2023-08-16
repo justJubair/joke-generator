@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind cdn and daisy UI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/877142f5f8.js" crossorigin="anonymous"></script>
+    <title>Joke Generator</title>
+</head>
+<body>
+    <header class="flex items-center justify-center gap-4 mt-16">
+        <h1 class="text-3xl font-bold md:text-5xl">Joke Generator</h1>
+        <i class="far fa-file text-3xl md:text-5xl text-cyan-500"></i>
+    </header>
+    <div class="flex justify-center mt-10">
+        <div class="w-[25rem] bg-base-100 shadow-2xl">
+            <div class="card-body">
+              <p id="joke" class="text-xl">What happens when a jews guy hits a wall with full erection? he breaks his nose.</p>
+              <div class="card-actions justify-between mt-4">
+                <h2 id="comedian" class="text-xl text-orange-700">Unknown</h2>
+                <button id="btn" class="btn btn-primary">New Joke</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
